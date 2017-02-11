@@ -7,7 +7,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pagina de inicio</title>
+    <title>Pagina de inicio?></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
@@ -61,7 +61,7 @@
                      </td>
                      <td>
                         <?php echo $fila->fecha; ?>
-                                         </td>
+                     </td>
                      <td>
                        <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
                        <a href="#"><span class="glyphicon glyphicon-trash"></span></a>
@@ -76,5 +76,7 @@
 
           </div>
       </div>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
