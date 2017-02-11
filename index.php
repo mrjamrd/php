@@ -37,29 +37,37 @@
                      </td>
                    </th>
                  </thead>
+                 <?php
+                   foreach ($datos as $fila) {
+                  ?>
                  <tbody>
+
                    <th>
                      <td>
-                       id
+                       <?php echo $fila->id; ?>
                      </td>
                      <td>
-                       nombre
+                        <?php echo $fila->nombre; ?>
+                                          </td>
+                     <td>
+                        <?php echo $fila->correo; ?>
+                                          </td>
+                     <td>
+                        <?php echo $fila->telefono; ?>
+
                      </td>
                      <td>
-                       Correo
-                     </td>
-                     <td>
-                       telefono
-                     </td>
-                     <td>
-                       fecha
-                     </td>
+                        <?php echo $fila->fecha; ?>
+                                         </td>
                      <td>
                        <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
                        <a href="#"><span class="glyphicon glyphicon-trash"></span></a>
                        <a href="#"><span class="glyphicon glyphicon-print"></span></a>
                      </td>
                    </th>
+                   <?php
+                     }
+                    ?>
                  </tbody>
                </table>
 
