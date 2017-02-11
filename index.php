@@ -14,6 +14,10 @@
       <div class="container">
           <h2>hola mundo</h2>
           <div class="table">
+             <div class="">
+
+                <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-user"></span> Agregar Usurios</a>
+             </div>
                <table class="table">
                  <thead>
                    <th>
