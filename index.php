@@ -1,4 +1,8 @@
-<?php  ?>
+<?php
+ require_once("inc/usuarios.php");
+ $tra = new Usuarios();
+ $datos = $tra->getDatos();
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -53,6 +57,7 @@
                      <td>
                        <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
                        <a href="#"><span class="glyphicon glyphicon-trash"></span></a>
+                       <a href="#"><span class="glyphicon glyphicon-print"></span></a>
                      </td>
                    </th>
                  </tbody>

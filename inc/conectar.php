@@ -9,7 +9,7 @@
     }
     public function setnames()
     {
-       return $this->mysqli->query(SET NAMES 'utf8');
+       return $this->mysqli->query("SET NAMES 'utf8'");
     }
 
   }
