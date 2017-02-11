@@ -52,7 +52,7 @@
                      </td>
                      <td>
                        <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
-                       <a href="#"></a>
+                       <a href="#"><span class="glyphicon glyphicon-trash"></span></a>
                      </td>
                    </th>
                  </tbody>
