@@ -4,7 +4,7 @@
 
     public function conectar()
     {
-        $this->mysqli = new mysqli("localhost","mrjam","cuqui17","sistema");
+        $this->mysqli = new mysqli("localhost","usuario","password","sistema");
         return $this->mysqli;
     }
     public function setnames()
